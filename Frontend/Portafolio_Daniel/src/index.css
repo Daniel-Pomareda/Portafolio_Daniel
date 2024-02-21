@@ -1,0 +1,107 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0px;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px; /* Ajusta el padding según sea necesario */
+  background-color: gray; /* Ajusta el color de fondo según sea necesario */
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  margin-right: 15px; /* Ajusta el margen entre los enlaces según sea necesario */
+}
+
+.botones-navbar{
+  margin: 2px 10px 2px 10px;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.presentacion-inicial{
+  margin-top: 150px;
+  text-align: left;
+  padding: 0px 200px 0px 200px;
+
+}
+
+.nombre-grande{
+  font-size: 45px;
+}
+
+.acerca-de-mi{
+  margin-top: 150px;
+  text-align: left;
+  padding: 0px 200px 0px 200px;
+
+}
+
+.formato-icono-tecnologia{
+  border-radius: 10px;
+  height: 100px;
+  width: auto;
+  margin: 10px;
+}
+
+.estilo-Experiencia{
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 200px 50px 200px;
+}
+
+.estilo-seccion-proyectos{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 100px 200px 100px 200px;
+}
+
+.estilo-proyecto{
+  width: 18rem;
+  margin: 1rem;
+}
+
+.boton-github-proyectos{
+  color: white;
+  text-decoration: none;
+}
+
+.estilo-seccion-contacto{
+  margin: 50px 300px 50px 300px;
+}
+
+.estilo-seccion-footer{
+  margin: 0px 100px 0px 100px;
+
+}
+
+.estilo-seccion-columnas-footer{
+  text-align: left;
+}
+
+.iconos-redes-sociales{ 
+  margin: 0px 10px;
+  width: 30px; 
+  height: 30px;
+}
+
+.creditos{
+  background-color: black;
+  font-style: italic;
+  padding: 5px 0px;
+}
